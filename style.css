@@ -1,0 +1,143 @@
+/* html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+h1 {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+p {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: inherit;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.content-wrapper a:hover {
+    --tw-text-opacity: 1;
+    color: rgba(31, 41, 55, var(--tw-text-opacity));
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 0.8rem;
+        line-height: 0.95rem;
+    }
+    p {
+        width: 100%;
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+}
+
+#github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github a {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+#github svg {
+    margin-right: 0.5rem;
+}
+#github a:hover svg path {
+    fill: #161b22;
+} */
+
+/* 
+https://source.unsplash.com/lfyKGQWEbew
+https://source.unsplash.com/PRne5FNBRmk
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: #CCC;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Amatic SC', sans-serif;
+  letter-spacing: 17.5px;
+}
+
+.hero-one {
+  top: 0;
+  position: absolute;
+  width: 60%;
+  background-color: black;
+  height: 100vh;
+  clip-path: polygon(0 0, 60vw 0, 40vw 100vh, 0 100vh);
+  z-index: 1;
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://pl.fotoomnia.com/zdjecia/thu/94ff944413fe086bc23dbb6449a3cf6c.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  background-color: green;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)), url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-title {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-primary {
+  font-size: 2em;
+  display: block;
+  font-weight: 700;
+}
+
+
+
