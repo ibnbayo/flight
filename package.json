@@ -4,7 +4,7 @@
     "lint": "eslint",
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --port 8080"
   },
   "devDependencies": {
     "dat.gui": "^0.7.7",
