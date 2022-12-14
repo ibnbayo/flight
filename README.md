@@ -1,6 +1,6 @@
 # Leet Flight Game
 
-[![Screenshot-2022-12-14-at-15-06-25.png](https://i.postimg.cc/7h28qDyL/Screenshot-2022-12-14-at-15-06-25.png)](https://postimg.cc/ct05cpCq)
+[![Screenshot-edi-2022-12-14-at-15-06-25.png](https://i.postimg.cc/0jXQB7qw/Screenshot-edi-2022-12-14-at-15-06-25.png)](https://postimg.cc/64Rt72qW)
 
 ## Overview
 This is a flight simulator for pros and hobbyists alike. Practise key flight concepts such as maintaining altitude and avoiding obstacles in combat. Best viewed with a Virtual Reality Headset <br/>
